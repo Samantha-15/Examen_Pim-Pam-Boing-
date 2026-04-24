@@ -20,3 +20,4 @@ Código SQL:
 SQL SELECT id, email, estatus, ultimo_acceso FROM usuarios;
 
 Evidencias:
+![Test 01 - Consulta de Registros](https://github.com/Samantha-15/Examen_Pim-Pam-Boing-/blob/main/SimulationTests/test11.jpeg)
