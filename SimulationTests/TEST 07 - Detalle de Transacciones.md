@@ -19,3 +19,4 @@ SQL SELECT id, monto, tipo, estatus, fecha_registro FROM
 transacciones_financieras;
 
 Evidencia:
+![Evidencia Test 07](test7.jpeg)
