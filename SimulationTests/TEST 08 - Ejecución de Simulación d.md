@@ -20,3 +20,4 @@ SQL \-- Prueba rápida: CALL sp_simulacion_pinpon_v2(20, 5, 3); \--
 Prueba mediana: CALL sp_simulacion_pinpon_v2(100, 8, 5);
 
 Evidencias:
+![Evidencia Test 08](test8.jpeg)
