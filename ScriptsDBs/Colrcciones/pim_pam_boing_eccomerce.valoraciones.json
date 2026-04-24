@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "69eaec235e48c3342ffab9a6"
+  },
+  "clave": "valo_001",
+  "id_usuario": 8,
+  "nickname": "Jexux378",
+  "calificacion": 5,
+  "comentario": "El nivel del bote de basura es muy divertido y educativo",
+  "fecha": "2026-04-19",
+  "nivel_alcanzado": 3
+},
+{
+  "_id": {
+    "$oid": "69eaf22c5e48c3342ffab9ca"
+  },
+  "clave": "val_002",
+  "id_usuario": 12,
+  "nickname": "Luzx236",
+  "calificacion": 5,
+  "comentario": "El nivel del bote de basura es muy divertido y educativo",
+  "fecha": "2026-04-19",
+  "nivel_alcanzado": 3
+},
+{
+  "_id": {
+    "$oid": "69eaf24b5e48c3342ffab9cc"
+  },
+  "clave": "val_003",
+  "id_usuario": 34,
+  "nickname": "RabbitHunter",
+  "calificacion": 4,
+  "comentario": "El nivel del conejo es difícil pero adictivo",
+  "fecha": "2026-04-20",
+  "nivel_alcanzado": 4
+},
+{
+  "_id": {
+    "$oid": "69eaf2855e48c3342ffab9ce"
+  },
+  "clave": "val_004",
+  "id_usuario": 14,
+  "nickname": "MemoryMaster",
+  "calificacion": 4,
+  "comentario": "El memorama tiene dibujos muy bonitos, pero el tiempo es muy corto",
+  "fecha": "2026-04-23",
+  "nivel_alcanzado": 1
+},
+{
+  "_id": {
+    "$oid": "69eaf2ca5e48c3342ffab9d0"
+  },
+  "clave": "val_003",
+  "id_usuario": 8,
+  "nickname": "MusicLover",
+  "calificacion": 5,
+  "comentario": "Me encantó la canción, es muy pegajosa y ayuda a concentrarse",
+  "fecha": "2026-04-23",
+  "nivel_alcanzado": 2
+}]
