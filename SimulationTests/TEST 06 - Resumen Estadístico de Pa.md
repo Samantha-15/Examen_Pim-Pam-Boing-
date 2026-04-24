@@ -19,3 +19,4 @@ SQL SELECT estatus, COUNT(\*) as total FROM transacciones_financieras
 GROUP BY estatus;
 
 Evidencias:
+![Evidencia Test 06](test6.jpeg)
