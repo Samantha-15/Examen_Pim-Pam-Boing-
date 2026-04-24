@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "69eaebef5e48c3342ffab9a3"
+  },
+  "clave": "promo_001",
+  "nombre": "Bonus de Tiempo: Memorama",
+  "descripcion": "Obtén 30 segundos extra para completar el nivel 1",
+  "tipo": "beneficio",
+  "valor": 30,
+  "fecha_inicio": "2026-04-01",
+  "fecha_fin": "2026-04-30",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "69eaef805e48c3342ffab9b6"
+  },
+  "clave": "promo_002",
+  "nombre": "Oído de Oro",
+  "descripcion": "Muestra la secuencia musical dos veces antes de empezar el nivel 2",
+  "tipo": "beneficio_nivel",
+  "valor": 2,
+  "fecha_inicio": "2026-04-23",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "69eaf0065e48c3342ffab9b8"
+  },
+  "clave": "promo_bote_mega",
+  "nombre": "Súper Bote",
+  "descripcion": "Aumenta el tamaño del bote de basura un 50% por 3 partidas",
+  "tipo": "beneficio_nivel",
+  "valor": 50,
+  "fecha_inicio": "2026-04-23",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "69eaf0255e48c3342ffab9ba"
+  },
+  "clave": "promo_patas_suerte",
+  "nombre": "Pata de la Suerte",
+  "descripcion": "El conejo sobrevive a un choque contra un auto sin perder vida",
+  "tipo": "vida_extra",
+  "valor": 1,
+  "fecha_inicio": "2026-04-23",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "69eaf03e5e48c3342ffab9bc"
+  },
+  "clave": "promo_doble_xp",
+  "nombre": "Sabio Académico",
+  "descripcion": "Duplica los puntos obtenidos en cualquiera de los 4 niveles",
+  "tipo": "beneficio",
+  "valor": 2,
+  "fecha_inicio": "2026-05-01",
+  "activo": false
+},
+{
+  "_id": {
+    "$oid": "69eaf0525e48c3342ffab9be"
+  },
+  "clave": "promo_rayos_x",
+  "nombre": "Vista de Rayos X",
+  "descripcion": "Muestra todas las cartas del memorama por 3 segundos al inicio",
+  "tipo": "beneficio_nivel",
+  "valor": 3,
+  "fecha_inicio": "2026-04-23",
+  "activo": true
+}]
