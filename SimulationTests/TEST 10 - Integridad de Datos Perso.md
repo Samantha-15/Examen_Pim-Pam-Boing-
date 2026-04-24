@@ -19,3 +19,4 @@ SQL SELECT nombre, primer_apellido, segundo_apellido, genero FROM
 persona_física;
 
 Evidencias:
+![Test 01 - Consulta de Registros](https://github.com/Samantha-15/Examen_Pim-Pam-Boing-/blob/main/SimulationTests/test10.jpeg)
