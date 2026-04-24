@@ -20,3 +20,4 @@ SQL SELECT apodo, avatar_url, fecha_registro, estatus FROM
 perfiles_jugadores;
 
 Evidencias:
+![Test 01 - Consulta de Registros](https://github.com/Samantha-15/Examen_Pim-Pam-Boing-/blob/main/SimulationTests/test9.jpeg)
