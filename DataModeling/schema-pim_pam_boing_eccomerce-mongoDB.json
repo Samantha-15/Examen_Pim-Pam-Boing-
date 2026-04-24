@@ -1,0 +1,48 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "clave",
+      "descripcion",
+      "estado",
+      "fecha_creacion",
+      "fecha_resolucion",
+      "id_usuario",
+      "prioridad",
+      "tipo"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId"
+      },
+      "clave": {
+        "bsonType": "string"
+      },
+      "descripcion": {
+        "bsonType": "string"
+      },
+      "estado": {
+        "bsonType": "string"
+      },
+      "fecha_creacion": {
+        "bsonType": "string"
+      },
+      "fecha_resolucion": {
+        "bsonType": [
+          "null",
+          "string"
+        ]
+      },
+      "id_usuario": {
+        "bsonType": "int"
+      },
+      "prioridad": {
+        "bsonType": "string"
+      },
+      "tipo": {
+        "bsonType": "string"
+      }
+    }
+  }
+}
