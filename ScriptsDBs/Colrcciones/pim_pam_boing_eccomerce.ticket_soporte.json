@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "69eaeb0c5e48c3342ffab997"
+  },
+  "clave": "ticket_001",
+  "id_usuario": 12,
+  "tipo": "soporte",
+  "descripcion": "El conejo no salta al presionar la tecla en el nivel 4",
+  "estado": "abierto",
+  "prioridad": "alta",
+  "fecha_creacion": "2026-04-19",
+  "fecha_resolucion": null
+},
+{
+  "_id": {
+    "$oid": "69eaf0f65e48c3342ffab9c1"
+  },
+  "clave": "ticket_002",
+  "id_usuario": 15,
+  "tipo": "soporte",
+  "descripcion": "Las cartas no se voltean al hacer clic en el nivel 1",
+  "estado": "abierto",
+  "prioridad": "alta",
+  "fecha_creacion": "2026-04-23",
+  "fecha_resolucion": null
+},
+{
+  "_id": {
+    "$oid": "69eaf11f5e48c3342ffab9c3"
+  },
+  "clave": "ticket_003",
+  "id_usuario": 8,
+  "tipo": "técnico",
+  "descripcion": "El sonido de la canción se escucha desfasado en la secuencia",
+  "estado": "en revisión",
+  "prioridad": "media",
+  "fecha_creacion": "2026-04-23",
+  "fecha_resolucion": null
+},
+{
+  "_id": {
+    "$oid": "69eaf16a5e48c3342ffab9c5"
+  },
+  "clave": "ticket_004",
+  "id_usuario": 22,
+  "tipo": "soporte",
+  "descripcion": "La basura cae fuera del escenario y no se puede recoger",
+  "estado": "abierto",
+  "prioridad": "baja",
+  "fecha_creacion": "2026-04-23",
+  "fecha_resolucion": null
+},
+{
+  "_id": {
+    "$oid": "69eaf18a5e48c3342ffab9c7"
+  },
+  "clave": "ticket_005",
+  "id_usuario": 12,
+  "tipo": "soporte",
+  "descripcion": "No se guardó mi puntaje máximo después de pasar el nivel del conejo",
+  "estado": "cerrado",
+  "prioridad": "alta",
+  "fecha_creacion": "2026-04-20",
+  "fecha_resolucion": "2026-04-21"
+}]
