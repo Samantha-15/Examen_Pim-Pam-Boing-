@@ -18,6 +18,9 @@ VIEW `kpi_1_conversion_premium` AS
                 COUNT(0)
             FROM
                 `personas`)) * 100) AS `tasa_conversion_porcentaje`
+                
+# Evidencia
+![Evidencia KPI 01](Captura de pantalla (734).png)
 
 ## 2. kpi_2_arpu
 CREATE 
@@ -32,6 +35,9 @@ VIEW `kpi_2_arpu` AS
     WHERE
         (`transacciones_financieras`.`estatus` = 'Aprobado')
 
+# Evidencia
+![Evidencia KPI 02](Captura de pantalla (735).png)
+
 ## 3. kpi_3_abandono_checkout
 CREATE 
     ALGORITHM = UNDEFINED 
@@ -44,6 +50,10 @@ VIEW `kpi_3_abandono_checkout` AS
         END)) / COUNT(0)) * 100) AS `tasa_abandono_pago`
     FROM
         `transacciones_financieras`
+
+# Evidencia
+![Evidencia KPI 03](Captura de pantalla (736).png)
+
 ## 4. kpi_4_revenue_mix
 CREATE 
     ALGORITHM = UNDEFINED 
@@ -61,6 +71,9 @@ VIEW `kpi_4_revenue_mix` AS
         (`t`.`estatus` = 'Aprobado')
     GROUP BY `p`.`nombre_plan`
 
+# Evidencia
+![Evidencia KPI 04](Captura de pantalla (737).png)
+
 ## 5. kpi_5_dispositivos
 CREATE 
     ALGORITHM = UNDEFINED 
@@ -73,6 +86,9 @@ VIEW `kpi_5_dispositivos` AS
     FROM
         `sesiones_juego`
     GROUP BY `sesiones_juego`.`tipo_dispositivo`
+
+# Evidencia
+![Evidencia KPI 05](Captura de pantalla (738).png)
 
 ## 6. kpi_6_abandono_niveles
 CREATE 
@@ -90,6 +106,9 @@ VIEW `kpi_6_abandono_niveles` AS
         LEFT JOIN `sesiones_juego` `s` ON ((`n`.`id` = `s`.`nivel_id`)))
     GROUP BY `n`.`nombre_nivel`
 
+# Evidencia
+![Evidencia KPI 06](Captura de pantalla (739).png)
+
 ## 7. kpi_7_mrr
 CREATE 
     ALGORITHM = UNDEFINED 
@@ -103,6 +122,9 @@ VIEW `kpi_7_mrr` AS
         JOIN `planes_licencia` `p` ON ((`l`.`id` = `p`.`id`)))
     WHERE
         (`l`.`estatus` = 'Vigente')
+
+# Evidencia
+![Evidencia KPI 07](Captura de pantalla (740).png)
 
 ## 8. kpi_8_crecimiento_usuarios
 CREATE 
@@ -118,6 +140,9 @@ VIEW `kpi_8_crecimiento_usuarios` AS
         `personas`
     GROUP BY `anio` , `mes`
 
+# Evidencia
+![Evidencia KPI 08](Captura de pantalla (741).png)
+
 ## 9. kpi_9_rechazo_pagos
 CREATE 
     ALGORITHM = UNDEFINED 
@@ -131,6 +156,9 @@ VIEW `kpi_9_rechazo_pagos` AS
     FROM
         `transacciones_financieras`
 
+# Evidencia
+![Evidencia KPI 09](Captura de pantalla (742).png)
+
 ## 10. kpi_10_retencion_usuarios
 CREATE 
     ALGORITHM = UNDEFINED 
@@ -143,3 +171,6 @@ VIEW `kpi_10_retencion_usuarios` AS
         `sesiones_juego`
     WHERE
         (`sesiones_juego`.`fecha_inicio` >= (CURDATE() - INTERVAL 30 DAY))
+
+# Evidencia
+![Evidencia KPI 10](Captura de pantalla (743).png)
