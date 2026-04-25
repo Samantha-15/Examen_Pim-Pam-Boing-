@@ -19,8 +19,8 @@ VIEW `kpi_1_conversion_premium` AS
             FROM
                 `personas`)) * 100) AS `tasa_conversion_porcentaje`
                 
-# Evidencia
-![Evidencia KPI 01](Captura de pantalla (734).png)
+## Evidencia
+![Evidencia KPI 01](Captura%20de%20pantalla%20(734).png)
 
 ## 2. kpi_2_arpu
 CREATE 
@@ -35,8 +35,8 @@ VIEW `kpi_2_arpu` AS
     WHERE
         (`transacciones_financieras`.`estatus` = 'Aprobado')
 
-# Evidencia
-![Evidencia KPI 02](Captura de pantalla (735).png)
+## Evidencia
+![Evidencia KPI 02](Captura%20de%20pantalla%20(735).png)
 
 ## 3. kpi_3_abandono_checkout
 CREATE 
@@ -51,8 +51,8 @@ VIEW `kpi_3_abandono_checkout` AS
     FROM
         `transacciones_financieras`
 
-# Evidencia
-![Evidencia KPI 03](Captura de pantalla (736).png)
+## Evidencia
+![Evidencia KPI 03](Captura%20de%20pantalla%20(736).png)
 
 ## 4. kpi_4_revenue_mix
 CREATE 
@@ -71,8 +71,8 @@ VIEW `kpi_4_revenue_mix` AS
         (`t`.`estatus` = 'Aprobado')
     GROUP BY `p`.`nombre_plan`
 
-# Evidencia
-![Evidencia KPI 04](Captura de pantalla (737).png)
+## Evidencia
+![Evidencia KPI 04](Captura%20de%20pantalla%20(737).png)
 
 ## 5. kpi_5_dispositivos
 CREATE 
@@ -87,8 +87,8 @@ VIEW `kpi_5_dispositivos` AS
         `sesiones_juego`
     GROUP BY `sesiones_juego`.`tipo_dispositivo`
 
-# Evidencia
-![Evidencia KPI 05](Captura de pantalla (738).png)
+## Evidencia
+![Evidencia KPI 05](Captura%20de%20pantalla%20(738).png)
 
 ## 6. kpi_6_abandono_niveles
 CREATE 
@@ -106,8 +106,8 @@ VIEW `kpi_6_abandono_niveles` AS
         LEFT JOIN `sesiones_juego` `s` ON ((`n`.`id` = `s`.`nivel_id`)))
     GROUP BY `n`.`nombre_nivel`
 
-# Evidencia
-![Evidencia KPI 06](Captura de pantalla (739).png)
+## Evidencia
+![Evidencia KPI 06](Captura%20de%20pantalla%20(739).png)
 
 ## 7. kpi_7_mrr
 CREATE 
@@ -123,8 +123,8 @@ VIEW `kpi_7_mrr` AS
     WHERE
         (`l`.`estatus` = 'Vigente')
 
-# Evidencia
-![Evidencia KPI 07](Captura de pantalla (740).png)
+## Evidencia
+![Evidencia KPI 07](Captura%20de%20pantalla%20(740).png)
 
 ## 8. kpi_8_crecimiento_usuarios
 CREATE 
@@ -140,8 +140,8 @@ VIEW `kpi_8_crecimiento_usuarios` AS
         `personas`
     GROUP BY `anio` , `mes`
 
-# Evidencia
-![Evidencia KPI 08](Captura de pantalla (741).png)
+## Evidencia
+![Evidencia KPI 08](Captura%20de%20pantalla%20(741).png)
 
 ## 9. kpi_9_rechazo_pagos
 CREATE 
@@ -156,8 +156,8 @@ VIEW `kpi_9_rechazo_pagos` AS
     FROM
         `transacciones_financieras`
 
-# Evidencia
-![Evidencia KPI 09](Captura de pantalla (742).png)
+## Evidencia
+![Evidencia KPI 09](Captura%20de%20pantalla%20(742).png)
 
 ## 10. kpi_10_retencion_usuarios
 CREATE 
@@ -172,5 +172,5 @@ VIEW `kpi_10_retencion_usuarios` AS
     WHERE
         (`sesiones_juego`.`fecha_inicio` >= (CURDATE() - INTERVAL 30 DAY))
 
-# Evidencia
-![Evidencia KPI 10](Captura de pantalla (743).png)
+## Evidencia
+![Evidencia KPI 10](Captura%20de%20pantalla%20(743).png)
